@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -48,6 +49,8 @@ public class Checkout extends BaseTest {
 			shippingadd.selectCity();
 			shippingadd.enterMobileNoinShippingAddrees("8983850079");
 			shippingadd.enterLandLine("12345");
+			shippingadd.ClickonshipptothisAddress();
+		
 		}		
 }
 			

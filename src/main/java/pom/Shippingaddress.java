@@ -18,7 +18,7 @@ public class Shippingaddress {
 	@FindBy  (xpath="//select[@id='city']") private WebElement city;
 	@FindBy  (xpath="//input[@id='mobile']") private WebElement mobilenoinaddress;
 	@FindBy  (xpath="//input[@id='landline']") private WebElement landline;
-	
+	@FindBy  (xpath="//a[@class='button_2']") private WebElement shiptothisadress;
 	public Shippingaddress(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -62,7 +62,10 @@ public class Shippingaddress {
 	 
 	 public void enterLandLine(String Landline) {
 		 landline.sendKeys(Landline);
-				 
+	}
+			
+	 public void ClickonshipptothisAddress() {
+		 shiptothisadress.click();
 				 
 	 }
 

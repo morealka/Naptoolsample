@@ -56,7 +56,7 @@ public class NaptolHomePage {
 	public void clickonSearchButton() {
 		search.click();
 	}
-	public void EnterProducttosearch(String product) {
+	public void ClearProduct(String product) {
 		 searchField.clear();
 	}
 	

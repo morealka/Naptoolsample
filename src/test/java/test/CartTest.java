@@ -29,7 +29,7 @@ public class CartTest extends BaseTest {
 		    addtocart=new AddtocartPage(driver);
 			addtocart.clickheretobuy();
 			addtocart.clcikoncontinueshopping();
-			naptolHomePage.EnterProducttosearch(null);
+			naptolHomePage.ClearProduct(null);
 			
 			naptolHomePage.enterProducttosearch("cooker");
 			naptolHomePage.clickonSearchButton();
