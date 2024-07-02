@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Alka\AppData\Local\Temp\testng-eclipse-2078091313\testng-customsuite.xml</span>
+                    <span>C:\Users\Alka\AppData\Local\Temp\testng-eclipse-671732287\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.Checkout" class="method navigator-link" hash-for-method="verifyProceedToCheckout">verifyProceedToCheckout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductSearchTest" class="method navigator-link" hash-for-method="verifyAfterclickonLoginPopupShouldDisplay">verifyAfterclickonLoginPopupShouldDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductSearchTest" class="method navigator-link" hash-for-method="verifyAfterclickonTrackOrderpageshouldBeREDIRECT">verifyAfterclickonTrackOrderpageshouldBeREDIRECT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductSearchTest" class="method navigator-link" hash-for-method="verifyIfuserabletoSearchProduct">verifyIfuserabletoSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.ProductSearchTest" class="method navigator-link" hash-for-method="verifyShoppingCategoriesShouldDisplay">verifyShoppingCategoriesShouldDisplay</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +136,35 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.Checkout</span>
+              <span class="class-name">test.ProductSearchTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyProceedToCheckout">
-                  </a> <!-- verifyProceedToCheckout -->
-                  <span class="method-name">verifyProceedToCheckout</span>
+                  <a name="verifyAfterclickonLoginPopupShouldDisplay">
+                  </a> <!-- verifyAfterclickonLoginPopupShouldDisplay -->
+                  <span class="method-name">verifyAfterclickonLoginPopupShouldDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAfterclickonTrackOrderpageshouldBeREDIRECT">
+                  </a> <!-- verifyAfterclickonTrackOrderpageshouldBeREDIRECT -->
+                  <span class="method-name">verifyAfterclickonTrackOrderpageshouldBeREDIRECT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIfuserabletoSearchProduct">
+                  </a> <!-- verifyIfuserabletoSearchProduct -->
+                  <span class="method-name">verifyIfuserabletoSearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShoppingCategoriesShouldDisplay">
+                  </a> <!-- verifyShoppingCategoriesShouldDisplay -->
+                  <span class="method-name">verifyShoppingCategoriesShouldDisplay</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +172,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Alka\AppData\Local\Temp\testng-eclipse-2078091313\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Alka\AppData\Local\Temp\testng-eclipse-671732287\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +181,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.Checkout&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;verifyProceedToCheckout&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- test.Checkout --&gt;
+      &lt;class name=&quot;test.ProductSearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,16 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyProceedToCheckout')
-data.setCell(0, 2, 'test.Checkout')
-data.setCell(0, 3, 65307);
+data.setCell(0, 1, 'verifyIfuserabletoSearchProduct')
+data.setCell(0, 2, 'test.ProductSearchTest')
+data.setCell(0, 3, 1564);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAfterclickonTrackOrderpageshouldBeREDIRECT')
+data.setCell(1, 2, 'test.ProductSearchTest')
+data.setCell(1, 3, 1126);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAfterclickonLoginPopupShouldDisplay')
+data.setCell(2, 2, 'test.ProductSearchTest')
+data.setCell(2, 3, 310);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyShoppingCategoriesShouldDisplay')
+data.setCell(3, 2, 'test.ProductSearchTest')
+data.setCell(3, 3, 294);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -224,15 +268,63 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.Checkout</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.ProductSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">configureReporting</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">openApplication</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">170 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyProceedToCheckout</span>
-                <span class="method-start">4023 ms</span>
+                <span class="method-name">verifyAfterclickonLoginPopupShouldDisplay</span>
+                <span class="method-start">8425 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addReportStatus([TestResult name=verifyAfterclickonLoginPopupShouldDisplay status=SUCCESS method=ProductSearchTest.v...)</span>
+                <span class="method-start">8737 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">8747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAfterclickonTrackOrderpageshouldBeREDIRECT</span>
+                <span class="method-start">14381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addReportStatus([TestResult name=verifyAfterclickonTrackOrderpageshouldBeREDIRECT status=SUCCESS method=ProductSearc...)</span>
+                <span class="method-start">15510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">15514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyIfuserabletoSearchProduct</span>
+                <span class="method-start">21329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addReportStatus([TestResult name=verifyIfuserabletoSearchProduct status=SUCCESS method=ProductSearchTest.verifyIfuse...)</span>
+                <span class="method-start">22901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">22917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyShoppingCategoriesShouldDisplay</span>
+                <span class="method-start">27928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">addReportStatus([TestResult name=verifyShoppingCategoriesShouldDisplay status=SUCCESS method=ProductSearchTest.verif...)</span>
+                <span class="method-start">28226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">publishReport</span>
+                <span class="method-start">28230 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

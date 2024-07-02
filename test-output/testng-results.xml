@@ -1,21 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-25T16:19:17 IST" name="Default suite" finished-at="2024-06-25T16:20:26 IST" duration-ms="69363">
+  <suite started-at="2024-07-02T23:48:39 IST" name="Default suite" finished-at="2024-07-02T23:49:08 IST" duration-ms="28881">
     <groups>
     </groups>
-    <test started-at="2024-06-25T16:19:17 IST" name="Default test" finished-at="2024-06-25T16:20:26 IST" duration-ms="69363">
-      <class name="test.Checkout">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.Checkout@639c2c1d]" started-at="2024-06-25T16:19:17 IST" name="openApplication" finished-at="2024-06-25T16:19:21 IST" duration-ms="4022" status="PASS">
+    <test started-at="2024-07-02T23:48:39 IST" name="Default test" finished-at="2024-07-02T23:49:08 IST" duration-ms="28881">
+      <class name="test.ProductSearchTest">
+        <test-method is-config="true" signature="configureReporting()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:39 IST" name="configureReporting" finished-at="2024-07-02T23:48:39 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReporting -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:39 IST" name="openApplication" finished-at="2024-07-02T23:48:47 IST" duration-ms="8254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="verifyProceedToCheckout()[pri:0, instance:test.Checkout@639c2c1d]" started-at="2024-06-25T16:19:21 IST" name="verifyProceedToCheckout" finished-at="2024-06-25T16:20:26 IST" duration-ms="65307" status="PASS">
+        <test-method signature="verifyAfterclickonLoginPopupShouldDisplay()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:47 IST" name="verifyAfterclickonLoginPopupShouldDisplay" finished-at="2024-07-02T23:48:48 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProceedToCheckout -->
-      </class> <!-- test.Checkout -->
+        </test-method> <!-- verifyAfterclickonLoginPopupShouldDisplay -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:48 IST" name="addReportStatus" finished-at="2024-07-02T23:48:48 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAfterclickonLoginPopupShouldDisplay status=SUCCESS method=ProductSearchTest.verifyAfterclickonLoginPopupShouldDisplay()[pri:0, instance:test.ProductSearchTest@6743e411] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:48 IST" name="openApplication" finished-at="2024-07-02T23:48:53 IST" duration-ms="5633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyAfterclickonTrackOrderpageshouldBeREDIRECT()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:53 IST" name="verifyAfterclickonTrackOrderpageshouldBeREDIRECT" finished-at="2024-07-02T23:48:54 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAfterclickonTrackOrderpageshouldBeREDIRECT -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:54 IST" name="addReportStatus" finished-at="2024-07-02T23:48:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAfterclickonTrackOrderpageshouldBeREDIRECT status=SUCCESS method=ProductSearchTest.verifyAfterclickonTrackOrderpageshouldBeREDIRECT()[pri:0, instance:test.ProductSearchTest@6743e411] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:48:54 IST" name="openApplication" finished-at="2024-07-02T23:49:00 IST" duration-ms="5814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyIfuserabletoSearchProduct()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:49:00 IST" name="verifyIfuserabletoSearchProduct" finished-at="2024-07-02T23:49:02 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfuserabletoSearchProduct -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:49:02 IST" name="addReportStatus" finished-at="2024-07-02T23:49:02 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIfuserabletoSearchProduct status=SUCCESS method=ProductSearchTest.verifyIfuserabletoSearchProduct()[pri:0, instance:test.ProductSearchTest@6743e411] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:49:02 IST" name="openApplication" finished-at="2024-07-02T23:49:07 IST" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyShoppingCategoriesShouldDisplay()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:49:07 IST" name="verifyShoppingCategoriesShouldDisplay" finished-at="2024-07-02T23:49:07 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingCategoriesShouldDisplay -->
+        <test-method is-config="true" signature="addReportStatus(org.testng.ITestResult)[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:49:07 IST" name="addReportStatus" finished-at="2024-07-02T23:49:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShoppingCategoriesShouldDisplay status=SUCCESS method=ProductSearchTest.verifyShoppingCategoriesShouldDisplay()[pri:0, instance:test.ProductSearchTest@6743e411] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReportStatus -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:test.ProductSearchTest@6743e411]" started-at="2024-07-02T23:49:07 IST" name="publishReport" finished-at="2024-07-02T23:49:08 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- test.ProductSearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
