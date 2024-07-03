@@ -70,17 +70,6 @@ public class Checkout extends BaseTest {
 
 	}
 
-	@AfterMethod
-	public void addReportStatus(ITestResult result) {
-		if (result.getStatus() == ITestResult.SUCCESS) {
-			test.log(Status.PASS, result.getName());
-		} else if (result.getStatus() == ITestResult.FAILURE) {
-			test.log(Status.FAIL, result.getName());
-		} else {
-			test.log(Status.SKIP, result.getName());
-		}
-	}
-
 	@AfterTest
 	public void publishReport() {
 		reports.flush();

@@ -87,7 +87,6 @@ public class CartTest extends BaseTest {
 		String ExpectedName = addtoCart.getProductName(1);
 		double ExpectedPrice = addtoCart.getProductPrice(2);
 		double ExpectedShippingPrice = addtoCart.getProductShippingPrice(2);
-		System.out.println(ExpectedName + " " + ExpectedPrice + " " + ExpectedShippingPrice);
 
 		Assert.assertEquals(addtoCart.getNumberofProductsInCart(), 2);
 		Assert.assertEquals(addtoCart.getProductName(1), ExpectedName);
@@ -131,17 +130,6 @@ public class CartTest extends BaseTest {
 		addtoCart.clickHeretoBuy();
 		Assert.assertEquals(addtoCart.getProductOrderAmount(1),
 				(addtoCart.getProductPrice(1) + addtoCart.getProductShippingPrice(1)));
-	}
-
-	@AfterMethod
-	public void addReportStatus(ITestResult result) {
-		if (result.getStatus() == ITestResult.SUCCESS) {
-			test.log(Status.PASS, result.getName());
-		} else if (result.getStatus() == ITestResult.FAILURE) {
-			test.log(Status.FAIL, result.getName());
-		} else {
-			test.log(Status.SKIP, result.getName());
-		}
 	}
 
 	@AfterTest

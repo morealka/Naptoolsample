@@ -4,6 +4,9 @@ import java.io.IOException;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+
+import com.aventstack.extentreports.Status;
 
 import utility.Screenshot;
 
