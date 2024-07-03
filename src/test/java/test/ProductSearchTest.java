@@ -64,7 +64,7 @@ public class ProductSearchTest extends BaseTest {
 		Assert.assertTrue(naptolHomePage.listItemDisplayed());
 
 	}
-	
+
 	@AfterMethod
 	public void closeBrowser() {
 		driver.close();

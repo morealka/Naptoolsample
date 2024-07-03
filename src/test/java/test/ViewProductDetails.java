@@ -63,6 +63,11 @@ public class ViewProductDetails extends BaseTest {
 		Assert.assertEquals(productResultPage.getProductPrice(2), productPrice);
 	}
 
+	@AfterMethod
+	public void closeBrowser() {
+		driver.close();
+	}
+
 	@AfterTest
 	public void publishReport() {
 		reports.flush();

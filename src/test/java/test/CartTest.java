@@ -130,6 +130,12 @@ public class CartTest extends BaseTest {
 		addtoCart.clickHeretoBuy();
 		Assert.assertEquals(addtoCart.getProductOrderAmount(1),
 				(addtoCart.getProductPrice(1) + addtoCart.getProductShippingPrice(1)));
+
+	}
+
+	@AfterMethod
+	public void closeBrowser() {
+		driver.close();
 	}
 
 	@AfterTest
