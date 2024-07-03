@@ -70,6 +70,11 @@ public class Checkout extends BaseTest {
 
 	}
 
+	@AfterMethod
+	public void closeBrowser() {
+		driver.close();
+	}
+
 	@AfterTest
 	public void publishReport() {
 		reports.flush();
